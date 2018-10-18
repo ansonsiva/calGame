@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3818595A2160AD1600246EF3 /* seashadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 381859592160AD1600246EF3 /* seashadow.png */; };
+		3818595C2160AF8B00246EF3 /* pinksd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3818595B2160AF8B00246EF3 /* pinksd.png */; };
+		3818595E2160BECA00246EF3 /* math1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3818595D2160BECA00246EF3 /* math1.png */; };
+		387D2291215A5B1D00B4CB65 /* calViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D2290215A5B1D00B4CB65 /* calViewController.swift */; };
+		3892BF2F2154F5BF009F33EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892BF2E2154F5BF009F33EB /* AppDelegate.swift */; };
+		3892BF312154F5BF009F33EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892BF302154F5BF009F33EB /* ViewController.swift */; };
+		3892BF342154F5BF009F33EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3892BF322154F5BF009F33EB /* Main.storyboard */; };
+		3892BF362154F5C0009F33EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3892BF352154F5C0009F33EB /* Assets.xcassets */; };
+		3892BF392154F5C0009F33EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3892BF372154F5C0009F33EB /* LaunchScreen.storyboard */; };
+		3892BF442154F5C0009F33EB /* calGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892BF432154F5C0009F33EB /* calGameTests.swift */; };
+		3892BF4F2154F5C0009F33EB /* calGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892BF4E2154F5C0009F33EB /* calGameUITests.swift */; };
+		38DEEDFB21564EAA002F57BA /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DEEDFA21564EAA002F57BA /* Appirater.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3892BF402154F5C0009F33EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3892BF232154F5BF009F33EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3892BF2A2154F5BF009F33EB;
+			remoteInfo = calGame;
+		};
+		3892BF4B2154F5C0009F33EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3892BF232154F5BF009F33EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3892BF2A2154F5BF009F33EB;
+			remoteInfo = calGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		381859592160AD1600246EF3 /* seashadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seashadow.png; sourceTree = "<group>"; };
+		3818595B2160AF8B00246EF3 /* pinksd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinksd.png; sourceTree = "<group>"; };
+		3818595D2160BECA00246EF3 /* math1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math1.png; sourceTree = "<group>"; };
+		387D2290215A5B1D00B4CB65 /* calViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calViewController.swift; sourceTree = "<group>"; };
+		3892BF2B2154F5BF009F33EB /* calGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3892BF2E2154F5BF009F33EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3892BF302154F5BF009F33EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3892BF332154F5BF009F33EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3892BF352154F5C0009F33EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3892BF382154F5C0009F33EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3892BF3A2154F5C0009F33EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3892BF3F2154F5C0009F33EB /* calGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3892BF432154F5C0009F33EB /* calGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calGameTests.swift; sourceTree = "<group>"; };
+		3892BF452154F5C0009F33EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3892BF4A2154F5C0009F33EB /* calGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3892BF4E2154F5C0009F33EB /* calGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calGameUITests.swift; sourceTree = "<group>"; };
+		3892BF502154F5C0009F33EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DEEDF821564EAA002F57BA /* calGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "calGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		38DEEDF921564EAA002F57BA /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		38DEEDFA21564EAA002F57BA /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		38DEEDFC2156731F002F57BA /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3892BF282154F5BF009F33EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3892BF3C2154F5C0009F33EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3892BF472154F5C0009F33EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381859582160AA5200246EF3 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				3818595D2160BECA00246EF3 /* math1.png */,
+				381859592160AD1600246EF3 /* seashadow.png */,
+				3818595B2160AF8B00246EF3 /* pinksd.png */,
+			);
+			path = pic;
+			sourceTree = "<group>";
+		};
+		3892BF222154F5BF009F33EB = {
+			isa = PBXGroup;
+			children = (
+				3892BF2D2154F5BF009F33EB /* calGame */,
+				3892BF422154F5C0009F33EB /* calGameTests */,
+				3892BF4D2154F5C0009F33EB /* calGameUITests */,
+				3892BF2C2154F5BF009F33EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3892BF2C2154F5BF009F33EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3892BF2B2154F5BF009F33EB /* calGame.app */,
+				3892BF3F2154F5C0009F33EB /* calGameTests.xctest */,
+				3892BF4A2154F5C0009F33EB /* calGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3892BF2D2154F5BF009F33EB /* calGame */ = {
+			isa = PBXGroup;
+			children = (
+				3892BF3A2154F5C0009F33EB /* Info.plist */,
+				3892BF5F2155251A009F33EB /* Supporting Files */,
+				3892BF5E2154F5DF009F33EB /* controller */,
+				3892BF5D2154F5D9009F33EB /* view */,
+				3892BF5C2154F5D0009F33EB /* model */,
+			);
+			path = calGame;
+			sourceTree = "<group>";
+		};
+		3892BF422154F5C0009F33EB /* calGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3892BF432154F5C0009F33EB /* calGameTests.swift */,
+				3892BF452154F5C0009F33EB /* Info.plist */,
+			);
+			path = calGameTests;
+			sourceTree = "<group>";
+		};
+		3892BF4D2154F5C0009F33EB /* calGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3892BF4E2154F5C0009F33EB /* calGameUITests.swift */,
+				3892BF502154F5C0009F33EB /* Info.plist */,
+			);
+			path = calGameUITests;
+			sourceTree = "<group>";
+		};
+		3892BF5C2154F5D0009F33EB /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3892BF5D2154F5D9009F33EB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				381859582160AA5200246EF3 /* pic */,
+				3892BF352154F5C0009F33EB /* Assets.xcassets */,
+				3892BF322154F5BF009F33EB /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3892BF5E2154F5DF009F33EB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3892BF2E2154F5BF009F33EB /* AppDelegate.swift */,
+				3892BF302154F5BF009F33EB /* ViewController.swift */,
+				387D2290215A5B1D00B4CB65 /* calViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3892BF5F2155251A009F33EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38DEEDFC2156731F002F57BA /* AppiraterDelegate.h */,
+				38DEEDF921564EAA002F57BA /* Appirater.h */,
+				38DEEDFA21564EAA002F57BA /* Appirater.m */,
+				3892BF372154F5C0009F33EB /* LaunchScreen.storyboard */,
+				38DEEDF821564EAA002F57BA /* calGame-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3892BF2A2154F5BF009F33EB /* calGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3892BF532154F5C0009F33EB /* Build configuration list for PBXNativeTarget "calGame" */;
+			buildPhases = (
+				3892BF272154F5BF009F33EB /* Sources */,
+				3892BF282154F5BF009F33EB /* Frameworks */,
+				3892BF292154F5BF009F33EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calGame;
+			productName = calGame;
+			productReference = 3892BF2B2154F5BF009F33EB /* calGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3892BF3E2154F5C0009F33EB /* calGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3892BF562154F5C0009F33EB /* Build configuration list for PBXNativeTarget "calGameTests" */;
+			buildPhases = (
+				3892BF3B2154F5C0009F33EB /* Sources */,
+				3892BF3C2154F5C0009F33EB /* Frameworks */,
+				3892BF3D2154F5C0009F33EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3892BF412154F5C0009F33EB /* PBXTargetDependency */,
+			);
+			name = calGameTests;
+			productName = calGameTests;
+			productReference = 3892BF3F2154F5C0009F33EB /* calGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3892BF492154F5C0009F33EB /* calGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3892BF592154F5C0009F33EB /* Build configuration list for PBXNativeTarget "calGameUITests" */;
+			buildPhases = (
+				3892BF462154F5C0009F33EB /* Sources */,
+				3892BF472154F5C0009F33EB /* Frameworks */,
+				3892BF482154F5C0009F33EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3892BF4C2154F5C0009F33EB /* PBXTargetDependency */,
+			);
+			name = calGameUITests;
+			productName = calGameUITests;
+			productReference = 3892BF4A2154F5C0009F33EB /* calGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3892BF232154F5BF009F33EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jun Zheng";
+				TargetAttributes = {
+					3892BF2A2154F5BF009F33EB = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					3892BF3E2154F5C0009F33EB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3892BF2A2154F5BF009F33EB;
+					};
+					3892BF492154F5C0009F33EB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3892BF2A2154F5BF009F33EB;
+					};
+				};
+			};
+			buildConfigurationList = 3892BF262154F5BF009F33EB /* Build configuration list for PBXProject "calGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3892BF222154F5BF009F33EB;
+			productRefGroup = 3892BF2C2154F5BF009F33EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3892BF2A2154F5BF009F33EB /* calGame */,
+				3892BF3E2154F5C0009F33EB /* calGameTests */,
+				3892BF492154F5C0009F33EB /* calGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3892BF292154F5BF009F33EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3892BF392154F5C0009F33EB /* LaunchScreen.storyboard in Resources */,
+				3892BF362154F5C0009F33EB /* Assets.xcassets in Resources */,
+				3892BF342154F5BF009F33EB /* Main.storyboard in Resources */,
+				3818595E2160BECA00246EF3 /* math1.png in Resources */,
+				3818595A2160AD1600246EF3 /* seashadow.png in Resources */,
+				3818595C2160AF8B00246EF3 /* pinksd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3892BF3D2154F5C0009F33EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3892BF482154F5C0009F33EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3892BF272154F5BF009F33EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEEDFB21564EAA002F57BA /* Appirater.m in Sources */,
+				387D2291215A5B1D00B4CB65 /* calViewController.swift in Sources */,
+				3892BF312154F5BF009F33EB /* ViewController.swift in Sources */,
+				3892BF2F2154F5BF009F33EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3892BF3B2154F5C0009F33EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3892BF442154F5C0009F33EB /* calGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3892BF462154F5C0009F33EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3892BF4F2154F5C0009F33EB /* calGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3892BF412154F5C0009F33EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3892BF2A2154F5BF009F33EB /* calGame */;
+			targetProxy = 3892BF402154F5C0009F33EB /* PBXContainerItemProxy */;
+		};
+		3892BF4C2154F5C0009F33EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3892BF2A2154F5BF009F33EB /* calGame */;
+			targetProxy = 3892BF4B2154F5C0009F33EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3892BF322154F5BF009F33EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3892BF332154F5BF009F33EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3892BF372154F5C0009F33EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3892BF382154F5C0009F33EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3892BF512154F5C0009F33EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3892BF522154F5C0009F33EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3892BF542154F5C0009F33EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V93HHECRDR;
+				INFOPLIST_FILE = calGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansonsiva.calGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "calGame/Supporting Files/calGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3892BF552154F5C0009F33EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V93HHECRDR;
+				INFOPLIST_FILE = calGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansonsiva.calGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "calGame/Supporting Files/calGame-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3892BF572154F5C0009F33EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V93HHECRDR;
+				INFOPLIST_FILE = calGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansonsiva.calGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calGame.app/calGame";
+			};
+			name = Debug;
+		};
+		3892BF582154F5C0009F33EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V93HHECRDR;
+				INFOPLIST_FILE = calGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansonsiva.calGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calGame.app/calGame";
+			};
+			name = Release;
+		};
+		3892BF5A2154F5C0009F33EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V93HHECRDR;
+				INFOPLIST_FILE = calGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansonsiva.calGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calGame;
+			};
+			name = Debug;
+		};
+		3892BF5B2154F5C0009F33EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V93HHECRDR;
+				INFOPLIST_FILE = calGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansonsiva.calGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = calGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3892BF262154F5BF009F33EB /* Build configuration list for PBXProject "calGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3892BF512154F5C0009F33EB /* Debug */,
+				3892BF522154F5C0009F33EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3892BF532154F5C0009F33EB /* Build configuration list for PBXNativeTarget "calGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3892BF542154F5C0009F33EB /* Debug */,
+				3892BF552154F5C0009F33EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3892BF562154F5C0009F33EB /* Build configuration list for PBXNativeTarget "calGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3892BF572154F5C0009F33EB /* Debug */,
+				3892BF582154F5C0009F33EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3892BF592154F5C0009F33EB /* Build configuration list for PBXNativeTarget "calGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3892BF5A2154F5C0009F33EB /* Debug */,
+				3892BF5B2154F5C0009F33EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3892BF232154F5BF009F33EB /* Project object */;
+}
